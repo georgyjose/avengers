@@ -1,0 +1,6 @@
+P2
+lex file.l
+gcc lex.yy.c -ly -ll
+./a.out
+
+
