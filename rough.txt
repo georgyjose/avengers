@@ -4,3 +4,7 @@ gcc lex.yy.c -ly -ll
 ./a.out
 
 
+P3
+ex p3a.l
+yacc -d p3a.y
+gcc lex.yy.c y.tab.c -ly -ll
